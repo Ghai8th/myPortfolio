@@ -1,0 +1,136 @@
+h1 {
+    padding-bottom: 12px;
+    margin: 20px;
+    text-align: left;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+    color: #3D5D74;
+
+}
+
+#ghaith {
+    font-size: large;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #7e7281;
+    text-shadow: #000000;
+}
+
+h2 {
+    color: #305774;
+    font-style: oblique;
+
+}
+
+#g {
+
+    background: #F8F9F9;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+
+
+}
+
+.container {
+    background: #F8F9F9;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 12px 24px 12px 12px;
+
+    transition: all 0.3s ease;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.479);
+}
+
+.container:hover {
+    background: #c7ccd1;
+    transform: translateY(-2px);
+
+}
+
+#more {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#buttons {
+    float: right;
+}
+
+#f {
+    margin: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#click {
+    color: rgb(30, 13, 92);
+}
+
+#bio1 {
+    transition: transform 0.3s ease;
+    width: 70%;
+    padding: 20px;
+
+}
+
+#bio1:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+
+#iconbutton {
+    background: none;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    width: 20px;
+    height: 30px;
+    margin: 5px;
+    transition: transform 2.1s ease;
+    color: gray;
+}
+
+#iconbutton:hover {
+
+    color: rgb(32, 43, 197);
+    transform: scale(21);
+    text-shadow: 0 10px 25px rgb(10, 9, 9, 0.788);
+}
+
+#iconbutton1 {
+    background: none;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.9s ease;
+    color: gray;
+    text-shadow: black;
+}
+
+#iconbutton1:hover {
+    color: rgb(256, 256, 256);
+    transform: scale(21);
+    text-shadow: 0 10px 25px rgba(10, 10, 10, 0.788);
+
+}
+
+#alrt {
+    color: #000000;
+    opacity: 80%;
+
+}
+
+#ghaithlan {
+    color: #7e6783;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
